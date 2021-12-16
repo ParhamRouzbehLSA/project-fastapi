@@ -27,9 +27,9 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello World, this the changed i made"}
 
 # uvicorn main:app --reload
 # uvicorn app.main:app --reload
 
-# 13:07:00
+# 16:22:00
