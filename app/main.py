@@ -27,7 +27,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello World, this is the changed i made"}
+    return {"message": "Hello World, successfully deployed from CI/CD pipline"}
 
 # uvicorn main:app --reload
 # uvicorn app.main:app --reload
